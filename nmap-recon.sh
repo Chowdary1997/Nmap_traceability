@@ -43,9 +43,9 @@
 #
 # EXAMPLES:
 #   ./nmap-recon.sh -t example.com
-#   sudo ./nmap-recon.sh -t https://www.onwardgroup.com -p 1-1000 -u -v -y --timing 4
+#   sudo ./nmap-recon.sh -t https://www.domain.com -p 1-1000 -u -v -y --timing 4
 #   sudo ./nmap-recon.sh -t 2001:db8::1 -6 --timing 3
-#   sudo ./nmap-recon.sh -t https://www.onwardgroup.com -p 1-65535 -u -v -y --timing 4
+#   sudo ./nmap-recon.sh -t https://www.domain.com -p 1-65535 -u -v -y --timing 4
 #   sudo ./nmap-recon.sh -t example.com -H -y                 # thorough CVE scan
 #   sudo nmap -sU -p 1-65535 -T4 --reason -oA ./udp_full_onwardgroup onwardgroup.com
 #
